@@ -6,6 +6,10 @@ When a single circuit board goes short, an EV line stops. Supply chain teams mea
 
 > All part, supplier and cost data in this project is **simulated**. Part names, suppliers, costs and quantities are illustrative assumptions designed to behave like a real automotive supply base. It is not Tesla data.
 
+## Headline finding
+
+A 4-week, 50% supply cut to one $85 circuit board strands $45M of other inventory and costs $22M. A cheap part can hold an entire build plan hostage.
+
 ## Why PCBAs
 
 A printed circuit board assembly (PCBA) is a circuit board with its chips and components already mounted. A modern EV carries dozens of them, from the main compute board to the small modules that move the seats. During the 2021 and 2022 semiconductor shortage, many automakers could build nearly the whole car but not ship it, because one cheap board was missing. That gap between a part's cost and its impact is what this project measures.
@@ -92,6 +96,7 @@ All of these can be changed in the sidebar.
 ## Run it locally
 
 ```bash
+cd tesla-dashboard
 pip install -r requirements.txt
 streamlit run app.py
 ```
