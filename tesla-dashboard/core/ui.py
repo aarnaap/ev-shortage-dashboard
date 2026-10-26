@@ -108,7 +108,7 @@ def sim_note():
 
 def style(fig, height=380, legend=True, ytitle=None, xtitle=None):
     fig.update_layout(
-        height=height, margin=dict(l=8, r=8, t=36, b=8),
+        height=height, margin=dict(l=70, r=20, t=40, b=60),
         paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
         font=dict(family="Inter, system-ui, sans-serif", size=13, color=INK_2),
         hoverlabel=dict(bgcolor="white", font_size=13, font_color=INK),
@@ -118,9 +118,9 @@ def style(fig, height=380, legend=True, ytitle=None, xtitle=None):
         bargap=0.25,
     )
     fig.update_xaxes(showgrid=False, linecolor=GRID, tickfont=dict(color=MUTED),
-                     title=xtitle, zeroline=False)
+                     title=xtitle, zeroline=False, automargin=True)
     fig.update_yaxes(gridcolor=GRID, gridwidth=1, linecolor=GRID, tickfont=dict(color=MUTED),
-                     title=ytitle, zeroline=False)
+                     title=ytitle, zeroline=False, automargin=True)
     return fig
 
 
