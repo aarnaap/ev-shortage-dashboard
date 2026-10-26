@@ -105,11 +105,8 @@ Then open http://localhost:8501.
 
 ## Deploy it (free)
 
-1. Push this folder to a public GitHub repository.
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
-3. Click **Create app**, pick the repository, set the main file to `app.py`, and deploy.
+ev-shortage-dashboard.streamlit.app
 
-You get a public link you can put on a resume or LinkedIn.
 
 ## Project structure
 
@@ -121,9 +118,6 @@ core/ui.py              Shared formatting, chart styling and caching
 pages/                  One file per dashboard page
 .streamlit/config.toml  Theme
 ```
-## Headline finding
 
-A 4-week, 50% supply cut to one $85 circuit board strands $45M of other inventory and costs $22M. A cheap part can hold an entire build plan hostage.
-
-**Live app:** to be added soon
+**Live app:** [ev-shortage-dashboard.streamlit.app](https://ev-shortage-dashboard.streamlit.app)
 Built by Aarna Pandey.
